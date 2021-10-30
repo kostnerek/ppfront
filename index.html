@@ -5,29 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
-    <title>Document</title>
+    <title>PPFront</title>
     
 </head>
 <body>
-    <h1>Projektowanie i programowanie frontend</h1>
-    <h2>Labolatorium 1: git</h2>
-    <h3>Przykładowe użycie standardowych znaczników html</h3>
-    <h4>praca z git:</h4>
-    <ul class='ul1'>
-        <li>wykonaj i zapisz zmiany w kodzie projektu</li>
-        <li><span>przejdz do panelu "source control"</span></li>
-    </ul>
-    <ul class='ul1'>
-        <li>wykonaj i zapisz zmiany w kodzie projektu</li>
-        <li><span>przejdz do panelu "source control"</span></li>
-    </ul>
-    <img src="img/bas.jpg"/>
-    <ol class='ul1'>
-        <li>wykonaj i zapisz zmiany w kodzie projektu</li>
-        <li><span>przejdz do panelu "source control"</span></li>
-    </ol>
-    <h5>akapit tekstu</h5>
-    <p>Lorem ipsum dolor, sit amet consectetur <em>adipisicing elit.</em> Esse consequuntur voluptatibus earum doloremque unde autem ab similique repellat quas culpa<br> iure, dolore omnis impedit officiis soluta et eos voluptate delectus?</p>
+    <div>
+        <header>
+            <div>
+                <img src="resources/img/logo.png" width="150" height="75" alt="No logo"/>
+            </div>
+            <h1>Projektowanie i programowanie frontend lab-2,3</h1>
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.pk.edu.pl" target="_blank">Polytechnyka</a>
+                    </li>
+                    <li><a href="https://www.agh.edu.pl" target="_blank">AGH</a></li>
+                    <li><a href="info.html">Informacje</a></li>
+                    <li><a href="#computers">Komponenty</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=GfXyn_2QnFo" target="_blank">Procesory</a></li>
+                    <li><a href="#movie">Rodzaje komputerów</a></li>
+                </ul>
+            </nav>
+            <article>
+                <div id='computers'>
+                    <h2>Wybrane komponenty komputerowe</h2>
+                </div>
+                
+                <div class="article_img">
+                    <img src="resources/img/img01.png" alt="img01" width="320" height="240"/>
+                </div>
+                <div class="article_text">
+                    Procesor (CPU) to jeden z najważniejszych podzespołów komputerowych. Jego zadaniem jest wymiana informacji między urządzeniami wejścia-wyjścia, kartą graficzną czy pamięcią RAM oraz przetwarzanie danych. Wiodącymi markami procesorów są AMD i Intel. Wydajność procesora określa przede wszystkim liczba rdzeni fizycznych i wątków. Każdy rdzeń fizyczny wykonuje jedno zadanie, dlatego CPU z większą liczbą rdzeni może wykonywać więcej zadań równocześnie. Aby jeszcze bardziej zwiększyć wydajność, producenci dzielą rdzenie fizyczne na wątki, czyli wirtualne wersje rdzenia. Procesory Intel używają w tym celu technologii Hyper-Threading (HT), a procesory AMD - SMT. Obecne procesory Intel mają od 4 do 18 rdzeni, natomiast AMD od 4 do 16 rdzeni.</p>
+                </div>
+
+                <div class="article_img">
+                    <img src="resources/img/img02.png" alt="img02" width="320" height="240"/>
+                </div>
+                <div class="article_text">
+                    <p>Router Wi-Fi to urządzenie sieciowe, które rozdziela sygnał internetowy. Pozwala na jednoczesne korzystanie z usług internetowych z kilku komputerów, smatfonów, tabletów i telewizorów z technologią Smart TV. Większość routerów Wi-Fi posiada od jednego do nawet ośmiu portów LAN, umożliwiających również przewodowe dostęp do sieci w technologii Ethernet. Używają jej m.in. drukarki, laptopy oraz komputery stacjonarne wyposażone w karty sieciowe z gniazdem RJ-45. Sygnał przesyłany jest również bezprzewodowo, zgodnie ze standardami Wi-Fi. Do najpopularniejszych łączy wykorzystywanych przez dostawców internetu należą xDSL oraz ADSL. Z łączy xDSL korzystają sieci lokalne oraz telewizje kablowe (UPC, Vectra). Natomiast routery ADSL są w stanie przetwarzać sygnał telefoniczny, dzięki czemu można korzystać z usług dostawców wykorzystujących ten rodzaj łącza (Neostrada TP, Netia Dialog).</p>
+                </div>
+
+                <div class="article_img">
+                    <img src="resources/img/img03.png" alt="img03" width="320" height="240"/>
+                </div>
+                <div class="article_text">
+                    <p>Karta graficzna, często też nazywana akceleratorem grafiki, to element komputera generujcy sygnał wizyjny (obraz) dla monitora. Podstawowym zadaniem karty graficznej jest przechowywanie informacji o zawartości ekranu monitora i odpowiednie sterowanie tą zawartością. Współczesne karty graficzne składają sie z wielu złożonych, współpracujących ze sobą komponentów. Procesor graficzny (GPU) jest odpowiedzialny za generowanie obrazu w pamięci obrazu. Pamięć obrazu - VideoRAM (VRAM), bufor ramki (framebuffer) - przechowuje cyfrowe dane obrazu. Pamięć ROM przechowuje dane, jak generator znaków, czy firmware karty graficznej. Zwykle ROM jest w postaci pamięci flash, co umożliwia aktualizację. Przetwornik cyfrowo-analogowy DAC przekształca cyfrowe dane z pamięci obrazu na analogowy sygnał sterujący dla monitora. Złącze umożliwia wymianę danych i sterowanie kartą graficzną - zazwyczaj używane są standardy PCI, AGP lub PCI-Express.</p>
+                </div>
+                
+                <div class="article_img">
+                    <img src="resources/img/img04.png" alt="img04" width="320" height="240"/>
+                </div>
+                <div class="article_text">
+                    <p>Mysz to urządzenie wskazujące używane podczas pracy z interfejsem graficznym komputera. Umożliwia poruszanie kursorem po ekranie komputera poprzez przesuwanie po płaskiej powierzchni. Mysz odczytuje zmianę położenia względem podłoża, a po jego zamianie na postać cyfrową komputer dokonuje zmiany położenia kursora myszy na ekranie. Najczęściej wyposażona jest również w kółko do przewijania ekranu. Dawniej mysz była podłączana do komputera PC przez port RS232 lub PS/2, obecnie dominuje złącze USB lub połączenie bezprzewodowe.
+                        Najstarszym typem myszy jest mysz mechaniczna, w której wykorzystuje się metalową kulkę pokrytą gumą, oraz system rolek.
+                        Nowszym rozwiązaniem jest tzw. mysz optyczna. W podstawie ma zainstalowaną jedną lub więcej diod elektroluminescencyjnych, które oświetlają powierzchnię pod myszą, soczewkę ogniskującą, oraz matrycę CCD.</p>
+                </div>
+                
+                <div class="article_img">
+                    <img src="resources/img/img05.png" alt="img05" width="320" height="240"/>
+                </div>
+                <div class="article_text">
+                    <p>Klawiatura komputerowa jest to uporządkowany zestaw klawiszy służący do ręcznego sterowania urządzeniem lub ręcznego wprowadzania danych. W zależności od spełnianej funkcji klawiatura zawiera różnego rodzaju klawisze – alfabetyczne, numeryczne, znaków specjalnych, funkcji specjalnych, o znaczeniu definiowanym przez użytkownika.
+                        Aktualnie używane modele klawiatur komputerowych mają około 100 klawiszy. Coraz częściej w klawiatury komputerowe wbudowuje się dodatkowe elementy sterujące (gładzik, dodatkowe przyciski, pokrętła, suwaki i inne), kontrolne (diody LED) i inne (np. czytnik kart pamięci, porty USB, gniazda do zestawu słuchawkowego) – najczęściej do obsługi multimediów. </p>
+                </div>
+                
+                <div class="article_img">
+                    <img src="resources/img/img06.png" alt="img06" width="320" height="240"/>
+                </div>
+                <div class="article_text">
+                    <p>Płyta główna (ang. motherboard, mainboard) jest to komponent urządzenia elektronicznego w postaci obwodu drukowanego, na którym montuje się najważniejsze elementy. Umożliwia komunikację pomiędzy wszystkimi pozostałymi komponentami i modułami.
+                        W komputerze na płycie głównej znajdują się: procesory, pamięć operacyjna lub gniazda do zainstalowania tych urządzeń oraz gniazda do zainstalowania dodatkowych płyt zwanych kartami rozszerzającymi (np. PCI), oraz gniazda do urządzeń składujących (dyski twarde, napędy optyczne itp.), złącze klawiatury i zasilacza. W niektórych konstrukcjach także gniazda do innych urządzeń zewnętrznych, do których sprzęt znajduje się na płycie głównej (port szeregowy, port równoległy, USB).</p>
+                </div>
+                
+                <div class="article_img">
+                    <img src="resources/img/img07.png" alt="img07" width="320" height="240"/>
+                </div>
+                <div class="article_text">
+                    <p>Pamięć RAM komputera jest to bardzo szybki nośnik, na którym znajdują się informacje o działających programach i procesach w systemie. W dużej mierze od parametrów RAM zależy wydajność i szybkość działania komputera. Dobór odpowiedniej pojemności oraz szybkości tego podzespołu opiera się na kilku aspektach. Zwykle im więcej wymagających programów działa jednocześnie, tym potrzeba większej ilości pamięci RAM. Płynna i stabilna praca systemu jest uzależniona także od szybkości zapisu i odczytu danych. 
+                        Dziś używane są pamięci DDR 3 i DDR 4. Nowoczesne technologie pozwalają również na znacznie większe upakowanie pamięci na kostce o tej samej wielkości. W ten sposób pojedynczy moduł RAM może mieć nawet 64 GB.
+                        W standardzie DDR 3 moduły mają pojemność do 16 GB, przy prędkości między 800 a 2400 MT/s (milionów transferów na sekundę). Najnowszy rodzaj pamięci RAM, DDR 4, może mieć pojemność do 64 GB, szybkość zapisu i odczytu sięga 3200 MT/s, natomiast pobór energii jest o wiele niższy. 
+                        </p>
+                </div>
+                
+                <div class="article_img">
+                    <img src="resources/img/img08.png" alt="img08" width="320" height="240"/>
+                </div>
+                <div class="article_text">
+                    <p>Monitor komputerowy to ogólna nazwa jednego z urządzeń wyjścia do bezpośredniej komunikacji użytkownika z komputerem. Zadaniem monitora jest wizualizacja wyników działania programów uruchomionych na komputerze.
+                        Obecnie używane monitory to ekrany komputerowe, obsługiwane przez komputer zwykle za pośrednictwem karty graficznej, która jest elementem komputera bądź może być wbudowana w sam monitor.
+                        Od momentu pojawienia się domowych komputerów, do ich obsługi używane były monitory CRT, lub nawet zwykłe telewizory oparte na tej samej technologii. Od około 2005 roku rynek monitorów został zdominowany przez monitory LCD, które nie wytwarzają tak intensywnego pola elektromagnetycznego i zajmują wielokrotnie mniej miejsca na biurkach. W najtańszych modelach sygnał jest jednak nadal przesyłany analogowo przez złącze D-Sub. Bardziej zaawansowane modele posiadają gniazda cyfrowe w standardzie DVI, HDMI lub DisplayPort, które pozwalają uzyskać znacznie lepszą jakość obrazu i wyższe rozdzielczości. </p>
+                </div>
+
+                <div>
+                    <h2 id='movie'>Krótki film o rodzajach komputerów</h2>
+                    <video width='512" controls'>
+                        <source src="resources/movie.mp4">Brak obsługi html
+                    </video>
+                </div>
+
+            </article>
+        </section>
+        <footer>
+            <h4>
+                Autor: <i>Filip Kostecki</i> Politechnika Krakowska, Wydział Mechaniczny, Katedra Informatyki Stosowanej M07
+            </h4>
+        </footer>
+    </div>
+    
 </body>
 </html>
