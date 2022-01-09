@@ -1,0 +1,10 @@
+.keyboard-container {
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.keyboard-container img {
+    height: 150px;
+}
